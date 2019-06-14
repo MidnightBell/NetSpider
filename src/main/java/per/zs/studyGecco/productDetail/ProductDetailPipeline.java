@@ -8,7 +8,11 @@ import java.util.List;
 
 import com.geccocrawler.gecco.annotation.PipelineName;
 import com.geccocrawler.gecco.pipeline.Pipeline;
-
+/**
+* @ClassName: ProductDetailPipeline 
+ * @author: zs
+ * @date: 2019年6月14日 下午5:29:01
+ */
 @PipelineName("productDetailPipeline")
 public class ProductDetailPipeline implements Pipeline<ProductDetail> {
 

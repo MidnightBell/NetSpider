@@ -7,7 +7,12 @@ import com.geccocrawler.gecco.annotation.HtmlField;
 import com.geccocrawler.gecco.annotation.Request;
 import com.geccocrawler.gecco.request.HttpRequest;
 import com.geccocrawler.gecco.spider.HtmlBean;
-
+/**
+* @ClassName: AllSort 
+ * @Description: TODO
+ * @author: zs
+ * @date: 2019年6月14日 下午5:29:15
+ */
 @Gecco(matchUrl="https://www.jd.com/allSort.aspx", pipelines={"consolePipeline", "allSortPipeline"})
 public class AllSort implements HtmlBean {
 	/**

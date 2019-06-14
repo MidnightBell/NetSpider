@@ -7,7 +7,11 @@ import com.geccocrawler.gecco.annotation.PipelineName;
 import com.geccocrawler.gecco.pipeline.Pipeline;
 import com.geccocrawler.gecco.request.HttpRequest;
 import com.geccocrawler.gecco.scheduler.SchedulerContext;
-
+/**
+* @ClassName: ProductListPipeline 
+ * @author: zs
+ * @date: 2019年6月14日 下午5:28:48
+ */
 @PipelineName("productListPipeline")
 public class ProductListPipeline implements Pipeline<ProductList> {
 

@@ -7,7 +7,12 @@ import com.geccocrawler.gecco.pipeline.Pipeline;
 import com.geccocrawler.gecco.request.HttpRequest;
 import com.geccocrawler.gecco.scheduler.SchedulerContext;
 import com.geccocrawler.gecco.spider.HrefBean;
-
+/**
+* @ClassName: AllSortPipeline 
+ * @Description: TODO
+ * @author: zs
+ * @date: 2019年6月14日 下午5:29:27
+ */
 @PipelineName("allSortPipeline")
 public class AllSortPipeline implements Pipeline<AllSort> {
 
