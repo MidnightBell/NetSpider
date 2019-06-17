@@ -3,6 +3,12 @@ package per.zs.studyGecco;
 import com.geccocrawler.gecco.GeccoEngine;
 import com.geccocrawler.gecco.request.HttpGetRequest;
 
+/**
+* @ClassName: geccoMain 
+ * @Description: 启动类
+ * @author: zs
+ * @date: 2019年6月17日 上午8:54:05
+ */
 public class geccoMain {
 	public static void main(String[] args) {
 		String url = "https://www.jd.com/allSort.aspx"; // 想要爬取的网站的首页地址
